@@ -96,4 +96,5 @@ jobs:
       - name: SSH-Key entfernen
         if: always()
         run: rm -f ~/.ssh/deploy_key
+
   # TODO (EX-02): Docker-Job für Docker Hub ergänzen
